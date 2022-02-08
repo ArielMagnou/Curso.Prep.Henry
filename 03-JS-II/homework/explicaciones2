@@ -1,0 +1,7 @@
+El bucle For es un bucle de iteraccion el que puedo contralar para que valla cambiando a medida de lo necesario, nos facilita el famoso codigo espagueti y nos soluciona problemas muy basicos pero largos de hacer uno por uno
+&&/ and/ y, es un operador logico peraprado para devolver un valor booleando
+en este caso and revisa que las dos sentencias que se esten tratande de validar sean correctas o incorrectas
+etc depende de lo que quiera hacer el desarollador pero si o si se tienen que cumplir los dos sino es false
+el operador logico || /or / o, es muy parecido a su hermano con la diferencia que
+pide que se ejecuten una de las dos sentencias para ser true 
+y el operador logico de negacion o ! sive para negar o desvalidar lo que necesitemos
