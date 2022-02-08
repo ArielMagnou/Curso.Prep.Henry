@@ -1,0 +1,27 @@
+Variables en Java Scrip. Hay 3 tipos de variables, let, var, const.
+Pero antes ¿que es una Variable? tenemos que imaginar una variable como una caja en el cual le podemos poner uno o varios datos, pueden ser String ¿que son los string o str? los string o str son una secuencia de caracteres representando un texto en el cual se debe escribir entre comillas simples o dobles por ejmeplo "hola", 'hola' si las escribimos sin comillas Js lo va a interpetar como un Number ¿que son los number? son los numeros dentro de js en el cual se pueden concatenar, sumar, restar, dividir, multiplicar y todas las operaciones matematicas que se les ocurra. Ademas de eso   las variables se le pueden guardar datos booleanos (los datos Booleanos son los true (verdadero) o false (false) )) ¿y por que hay 3 tipos de variables? aca les explicamos el por que
+En sus comienzos Var era la unica forma de declarar una variable que habia, esta se encuntra desde los comienzos de JS, con el paso del tiempo se dieron cuenta que generaba muchos probelmas a los desarrolladores con el Scope.
+sin embargo sus hermanos mas nuevos que aparecieron en ES6 son bastante diferentes.
+let es conocido como la forma de declara una variable y esta puede ir cambiando al paso del tiempo, si mi variable ej: let nombre = "ariel", esta puede cambiar sin ningun inconveniente como por ejemplo : let nombre = "ariel magnou" 
+y por ultimo const que esta es la forma de delcarar una variable que no cambia, por ejemplo : const nombre = ariel esta ya no pude cambiar va a ser ariel hoy y siempre
+
+Funciones: Las funciones son un bloque de codigo en el cual podes utilizar para que una tarea en la cual te lleva muchas lineas de codigo puedas simplificarlo en un par de lineas simples, solo tenes que llamar a la funcion por su nombre y eso va a ejecutar el codigo que hayas escrito ej : 
+function suma(a,b){
+    let = sum (a + b);
+    return sum;
+}
+suma(2 , 4)
+console.log(suma)
+
+la delcalaracion IF traducido al español es "si no"que queiere decir que si queremos ver si x es igual a x podemos hacer algo asi
+if (3 === 3){
+    console.log ("Son los mismos números")===> se Ejecuta por que son iguales
+}else{
+    console.log ("no son los mismos números)
+}
+y el else lo que hace es terminar la declaracion si es qe esta no se llega a cuamplir
+if (3 === 4){
+    console.log ("Son los mismos números")
+}else{
+    console.log ("no son los mismos números)===> se Ejecuta por que no son iguales
+}
