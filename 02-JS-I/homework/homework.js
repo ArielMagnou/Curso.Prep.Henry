@@ -40,7 +40,7 @@ function suma(x, y) {
   let sum = x + y;
   return sum
 }
-suma(1 + 2);
+
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
@@ -48,7 +48,7 @@ function resta(x, y) {
   let sum = x - y;
   return sum
 }
-suma(1 - 2);
+
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
@@ -57,7 +57,7 @@ function multiplica(x, y) {
   let sum = x * y;
   return sum
 }
-suma(1 * 2);
+
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
@@ -66,7 +66,7 @@ function divide(x, y) {
   let sum = x / y;
   return sum
 }
-suma(5 / 20);
+
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
@@ -79,7 +79,7 @@ function sonIguales(x, y) {
   }
 
 }
-sonIguales(2, 2);
+
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
@@ -103,7 +103,7 @@ function menosQueNoventa(num) {
     return false;
   }
 }
-menosQueNoventa(89);
+
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
@@ -116,7 +116,7 @@ function mayorQueCincuenta(num) {
     return false;
   }
 }
-mayorQueCincuenta(79);
+
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
